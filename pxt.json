@@ -1,0 +1,23 @@
+{
+  "name": "carboard-control",
+  "description": "micro:bit 小車擴充板：4 路 DC 馬達與 8 路 Servo 控制",
+  "version": "1.0.0",
+  "license": "MIT",
+  "files": [
+    "enums.ts",
+    "i2c.ts",
+    "protocol.ts",
+    "motor.ts",
+    "servo.ts",
+    "status.ts"
+  ],
+  "testFiles": [
+    "test.ts"
+  ],
+  "dependencies": {
+    "core": "*"
+  },
+  "supportedTargets": [
+    "microbit"
+  ]
+}
